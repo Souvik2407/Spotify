@@ -1,0 +1,74 @@
+.red-border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.justify_content{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.align-item{
+    align-items: center;
+}
+.bg-color{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Background of the scrollbar track */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the draggable part of the scrollbar */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color when the scrollbar is hovered */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #333; /* thumb and track color */
+}
+
+/* For Internet Explorer 10+ */
+::-ms-scrollbar {
+    width: 12px;
+}
+
+::-ms-scrollbar-track {
+    background: #333;
+}
+
+::-ms-scrollbar-thumb {
+    background: #555;
+}
+
+::-ms-scrollbar-thumb:hover {
+    background: #777;
+}
